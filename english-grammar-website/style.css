@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: 'Oswald', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #003366;
+}
+
+header {
+  height: 60px;
+  background-color: #003366;
+}
+
+.hero {
+  background-color: aqua;
+  color: rgb(211, 45, 45);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+main {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.intro {
+  text-align: center;
+  font-size: 25px;
+}
+
+.categories {
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+}
+
+.syntax {
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+}
+
+.concision {
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 200px;
+
+  p {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+  .hero p {
+      font-size: 1.2rem;
+  }
+}
